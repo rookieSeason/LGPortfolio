@@ -11,13 +11,13 @@ const About = () => {
                 <div  className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='ml-4 px-4 py-4 sm:text-right pb-4'>
                         <span>
-                            <h1 className='mt-3 text-2xl sm:text-4xl text-[#0a192f] font-bold inline border-b-4 border-cyan-500'>About</h1>
+                            <h1 className='mt-2 text-2xl sm:text-4xl text-[#0a192f] font-bold inline border-b-4 border-cyan-500'>About</h1>
                         </span>
                     </div>
                 </div>
                 <div  className='max-w-[1000px] text-2xl w-full grid sm:grid-cols-2 gap-4 px-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='text-md sm:text-right text-4xl font-semibold pt-4 px-4'>
-                        <p>Please have a look at my <span className='text-cyan-600'>tech stack</span> that would <span className='text-cyan-600'>interest</span> you</p>
+                        <p>Please have a look @ my <span className='text-cyan-600'>tech stack</span> that would <span className='text-cyan-600'>interest</span> you</p>
                     </div>
                     <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='px-6'>
                         <p className='text-2xl pb-1 sm:text-2xl text-[#0a192f] font-bold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>

@@ -11,7 +11,7 @@ const Nav = () => {
         <div className='fixed flex w-full sm:flex-wrap justify-between items-center top-0 bg-[#0a192f] font-sans py-2 px-4 z-20'>
             <div className='text-3xl mx-5 font-bold'>
                 <a href="/" className='relative p-0 m-0'>
-                    <img src={logo1} alt="logo1" width={45} height={45}/>
+                    <img src={logo1} alt="logo1" width={43} height={43}/>
                 </a>
             </div>
             
