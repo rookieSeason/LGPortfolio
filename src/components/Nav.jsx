@@ -3,17 +3,17 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub, FaFacebook} from 'react-icons/fa
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { Link } from 'react-scroll';
-
+import logo1 from '../assets/logo1.png';
 const Nav = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
         <div className='fixed flex w-full sm:flex-wrap justify-between items-center top-0 bg-[#0a192f] font-sans py-2 px-4 z-20'>
             <div className='text-3xl mx-5 font-bold'>
-                <a href="/">
-                    <span className=' text-cyan-400'>L</span>
-                    <span className='text-gray-100'>G Portfolio</span>
-                </a></div>
+                <a href="/" className='relative p-0 m-0'>
+                    <img src={logo1} alt="logo1" width={45} height={45}/>
+                </a>
+            </div>
             
             <ul className='hidden md:flex text-white text-normal'>
                 {/*Menu*/}

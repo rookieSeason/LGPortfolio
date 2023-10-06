@@ -7,7 +7,7 @@ const Home = () => {
         AOS.init();
     return (
         <div name='home' className='w-full h-screen bg-[#0a192f] whitespace-pre-line'>
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" className='sm:max-w-[950px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" className='sm:max-w-[950px] mx-auto px-8 flex flex-col justify-center h-full z-10'>
                 <p className='text-gray-100 text-2xl'>Hi my name is,</p>
                 <h2 className=' motion-safe:animate-bounce text-3xl text-cyan-400 sm:text-6xl font-bold my-2'>Lester John Gatpolintan</h2>
                 <h3 className='animate-typing overflow-hidden whitespace-nowrap text-gray-100 text-xl sm:text-3xl'>I'm a Junior Software Developer. </h3>
