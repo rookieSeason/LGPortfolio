@@ -4,7 +4,7 @@ import { ImLocation } from 'react-icons/im';
 const Contact= () => {
     return (
         <div name='contact' className='w-screen h-screen bg-gray-100 text-gray-900'>
-            <div className='flex flex-col justify-center items-center w-full h-screen pt-8 px-12'>
+            <div className='flex flex-col justify-center items-center w-full h-screen pt-12 px-12'>
                 <div className='whitespace-pre-line max-w-[900px] w-full grid sm:grid-cols-2 gap-2 pb-1 top-0'>
                     <div className='ml-4 sm:text-center pb-4' data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
                         <h1 className='my-8 text-2xl sm:text-3xl text-[#0a192f] font-bold inline border-b-4 border-cyan-500'>Contact Me</h1>
@@ -24,9 +24,9 @@ const Contact= () => {
                         </div>
                          
                     </div>
-                    <div className='pb-4 sm:flex justify-center items-center h-full max-w-sm'>
+                    <div className='pb-4 sm:flex justify-center items-center h-full'>
                         <form>
-                            <div className="bg-white py-8 rounded-xl">
+                            <div className="bg-white py-8 rounded-xl w-full">
                                 <div className="space-y-2 px-4">
                                     <div>
                                         <label htmlFor="name" className="block mb-1 text-gray-600 font-semibold">Name</label>

@@ -36,10 +36,10 @@ const Nav = () => {
             {/* Mobile Menu */}
             
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-white'}>
-                <li className='py-3 text-2xl'><Link onClick={handleClick} to="home" smooth={true} duration={600}>Home</Link></li>
-                <li className='py-3 text-2xl'><Link onClick={handleClick} to="about" smooth={true} duration={600}>About</Link></li>
-                <li className='py-3 text-2xl'><Link onClick={handleClick} to="projects" smooth={true} duration={600}>Projects</Link></li>
-                <li className='py-3 text-2xl'><Link onClick={handleClick} to="contact" smooth={true} duration={600}>Contact</Link></li>
+                <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="home" smooth={true} duration={600}>Home</Link></li>
+                <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="about" smooth={true} duration={600}>About</Link></li>
+                <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="projects" smooth={true} duration={600}>Projects</Link></li>
+                <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="contact" smooth={true} duration={600}>Contact</Link></li>
             </ul>
             {/* Social Icons   */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
