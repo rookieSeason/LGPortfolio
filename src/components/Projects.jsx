@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-      <div name='projects' className='w-full h-screen bg-[#0a192f] whitespace-pre-line py-8'>
+      <div name='projects' className='w-screen h-screen bg-[#0a192f] whitespace-pre-line py-8'>
           
           <div data-aos='fade-up' data-aos-delay='200' data-aos-duration='500' className='flex flex-col justify-center items-center w-full h-full py-6'>
               <span>

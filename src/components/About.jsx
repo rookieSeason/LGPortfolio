@@ -2,11 +2,9 @@ import React, { useEffect } from 'react'
 import profile from '../assets/profile.jpg'
 
 const About = () => {
-    
-        
-        
+          
     return (
-        <div name='about' className='w-full h-screen bg-gray-100 text-gray-900'>
+        <div name='about' className='w-screen h-screen bg-gray-100 text-gray-900'>
             <div className='sm:flex flex-col justify-center items-center w-screen h-full py-8 whitespace-pre-line' >
                 <div  className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='ml-4 px-4 py-4 sm:text-right pb-4'>
