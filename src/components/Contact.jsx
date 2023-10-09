@@ -24,9 +24,9 @@ const Contact= () => {
                         </div>
                          
                     </div>
-                    <div className='pb-4 sm:flex justify-center items-center h-full'>
+                    <div className='pb-4 sm:flex justify-center items-center h-full max-w-sm'>
                         <form>
-                            <div className="bg-white px-2 py-4 rounded-xl max-w-lg">
+                            <div className="bg-white py-8 rounded-xl">
                                 <div className="space-y-2 px-4">
                                     <div>
                                         <label htmlFor="name" className="block mb-1 text-gray-600 font-semibold">Name</label>
@@ -40,7 +40,7 @@ const Contact= () => {
                                         <label htmlFor="message" className="block mb-1 text-gray-600 font-semibold">Message</label>
                                         <textarea type="text" className="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full" />
                                     </div>
-                                    <button className='mt-4 py-2 w-full bg-cyan-600 text-gray-50  font-semibold rounded-md  tracking-wide hover:bg-cyan-700 duration-200'>Send Message</button>
+                                    <button className='mt-4 mb-4 py-2 w-full bg-cyan-600 text-gray-50  font-semibold rounded-md  tracking-wide hover:bg-cyan-700 duration-200'>Send Message</button>
                                 </div>
                                 
                             </div>
