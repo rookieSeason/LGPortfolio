@@ -35,25 +35,25 @@ const About = () => {
                             <div className='my-1 hover:scale-105 duration-200'>
                                 <label htmlFor="JavaScript" className='text-sm'>Laravel</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-800 rounded'>
-                                    <div className='rounded-l h-2 bg-[#f55247]' style={{ width: 90 }}></div>
+                                    <div className='rounded-l h-2 bg-[#f55247]' style={{ width: 100 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
                                 <label htmlFor="JavaScript" className='text-sm'>React JS</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-800 rounded'>
-                                    <div className='rounded-l h-2 bg-[#61DBFB]' style={{ width: 80 }}></div>
+                                    <div className='rounded-l h-2 bg-[#61DBFB]' style={{ width: 95 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
                                 <label htmlFor="JavaScript" className='text-sm'>Node JS</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-800 rounded'>
-                                    <div className='rounded-l h-2 bg-[#215732]' style={{ width: 70 }}></div>
+                                    <div className='rounded-l h-2 bg-[#215732]' style={{ width: 75 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
                                 <label htmlFor="JavaScript" className='text-sm'>My SQL</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-800 rounded'>
-                                    <div className='rounded-l h-2 bg-sky-500' style={{ width: 70 }}></div>
+                                    <div className='rounded-l h-2 bg-[#00758F]' style={{ width: 80 }}></div>
                                 </div>
                             </div>
                         </span>
