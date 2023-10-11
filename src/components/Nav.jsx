@@ -8,7 +8,8 @@ const Nav = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className='fixed flex sm:flex-wrap justify-between w-screen items-center top-0 bg-[#0a192f] font-sans py-2 px-4 z-20'>
+        <div className=' p-0 m-0'>
+            <div className='fixed flex sm:flex-wrap justify-between w-screen items-center top-0 bg-[#0a192f] font-sans py-2 px-4 z-20 overscroll-x-none'>
             <div className='text-3xl mx-5 font-bold'>
                 <a href="/" className='relative p-0 m-0'>
                     <img src={logo1} alt="logo1" width={43} height={43}/>
@@ -72,6 +73,9 @@ const Nav = () => {
                 </ul>
             </div>
         </div>
+
+        </div>
+        
     );
 }
 

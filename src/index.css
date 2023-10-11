@@ -3,9 +3,12 @@
 
 
 @layer base{
+
+  *{
+    @apply overscroll-x-none;
+  }
   body{
     @apply font-[Poppins];
-
   }
   li{
     @apply px-4;

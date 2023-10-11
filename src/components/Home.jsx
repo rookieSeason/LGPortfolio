@@ -6,10 +6,10 @@ import 'aos/dist/aos.css';
 const Home = () => {
         AOS.init();
     return (
-        <div name='home' className='w-screen h-screen bg-[#0a192f] '>
+        <div name='home' className='w-screen h-screen bg-[#0a192f] m-0 p-0 overflow-x-hidden'>
             <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" className='whitespace-pre-line sm:max-w-[950px] mx-auto px-8 flex flex-col justify-center h-full z-10'>
                 <p className='text-gray-100 text-2xl'>Hi my name is,</p>
-                <h2 className=' motion-safe:animate-bounce text-3xl text-cyan-400 sm:text-6xl font-bold my-2'>Lester John Gatpolintan</h2>
+                <h2 className='motion-safe:animate-bounce text-3xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-300 sm:text-6xl font-bold my-2'>Lester John Gatpolintan</h2>
                 <h3 className='animate-typing overflow-hidden whitespace-nowrap text-gray-100 sm:text-3xl'>I'm a Junior Software Developer. </h3>
                 <p className='text-gray-300 max-w-[700px] py-3 text-lg'>A hardworking Junior Software Developer
                 that willing to learn and can provide an innovative solution in a least amount of time</p>
