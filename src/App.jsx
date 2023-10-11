@@ -9,12 +9,15 @@ function App() {
 
   return (
     <>
+    <div className='overscroll-x-none'>
       <Nav/>
       <Home />
       <About />
       <Projects />
       <Contact />
       <Footer/>
+    </div>
+      
     </>
   )
 }
