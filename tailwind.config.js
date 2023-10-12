@@ -29,6 +29,7 @@ export default {
       animation: {
         typing: "typing 1.5s steps(20) infinite alternate, blink .7s infinite"
       }
+
     },
   },
   plugins: [],

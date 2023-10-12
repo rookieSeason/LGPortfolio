@@ -4,6 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { Link } from 'react-scroll';
 import logo1 from '../assets/logo1.png';
+import Lester from '../assets/lester.txt';
 const Nav = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
@@ -66,7 +67,7 @@ const Nav = () => {
                         </a>
                     </li>
                     <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-green-500 text-gray-50 rounded-b-lg shadow-lg'>
-                        <a href="" className='flex justify-between items-center w-full'>
+                        <a href={Lester} download="resume-pdf" target='_blank' rel='nonreferrer' className='flex justify-between items-center w-full'>
                             Resume<BsFillPersonLinesFill size={25} />
                         </a>
                     </li>
