@@ -5,19 +5,21 @@ import { SiGmail } from 'react-icons/si';
 import { Link } from 'react-scroll';
 import logo1 from '../assets/logo1.png';
 import Lester from '../assets/lester.txt';
+import Switcher from './Switcher';
+
+
 const Nav = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
         <div className=' p-0 m-0'>
-            <div className='fixed flex sm:flex-wrap justify-between w-screen items-center top-0 bg-[#0a192f] font-sans py-2 px-4 z-20 overscroll-x-none'>
+            <div className='bg-gray-100 shadow-md fixed flex sm:flex-wrap justify-between w-screen items-center top-0 dark:bg-[#0a192f] duration-300 font-sans py-2 px-4 z-20 overscroll-x-none'>
             <div className='text-3xl mx-5 font-bold'>
                 <a href="/" className='relative p-0 m-0'>
-                    <img src={logo1} alt="logo1" width={43} height={43}/>
+                    <img src={logo1} alt="logo1" width={42} height={42}/>
                 </a>
-            </div>
-            
-            <ul className='hidden md:flex text-white text-normal'>
+            </div>         
+            <ul className='hidden md:flex text-gray-800 text-normal dark:text-gray-50 duration-300'>
                 {/*Menu*/}
                 <li>
                     <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="home" smooth={true} duration={600}>Home</Link>
@@ -29,19 +31,24 @@ const Nav = () => {
                 <li>
                     <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="contact" smooth={true} duration={600}>Contact</Link>
                 </li>
+                <li className='text-xl'>
+                    <Switcher/>
+                </li>
+               
             </ul>
             
             {/* Hamburger and X Button*/}
-            <div onClick={handleClick} className='md:hidden text-2xl z-10 text-white'>
+            <div onClick={handleClick} className='md:hidden  text-2xl z-10 text-gray-800 dark:text-gray-100'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
             {/* Mobile Menu */}
             
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-white'}>
+            <ul className={!nav ? 'hidden' : 'bg-gray-100 text-gray-800 absolute top-0 left-0 w-full h-screen dark:bg-[#0a192f] flex flex-col justify-center items-center dark:text-gray-100'}>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="home" smooth={true} duration={600}>Home</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="about" smooth={true} duration={600}>About</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="projects" smooth={true} duration={600}>Projects</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="contact" smooth={true} duration={600}>Contact</Link></li>
+                <li><Switcher/></li>
             </ul>
             {/* Social Icons   */}
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
