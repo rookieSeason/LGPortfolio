@@ -51,7 +51,7 @@ const Nav = () => {
                 <li><Switcher/></li>
             </ul>
             {/* Social Icons   */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
                 <ul>
                     <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-white text-blue-500 rounded-t-lg shadow-lg'>
                         <a href="/" className='flex justify-between items-center w-full'>
