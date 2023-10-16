@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <div className='overscroll-x-none'>
+    <div className='overscroll-x-none overflow-x-hidden'>
       <Nav/>
       <Home />
       <About />

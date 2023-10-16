@@ -15,7 +15,13 @@ const About = () => {
                 </div>
                 <div  className='max-w-[1000px] text-2xl w-full grid sm:grid-cols-2 gap-4 px-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='dark:text-gray-200 text-md sm:text-right text-4xl font-semibold pt-4 px-4'>
+                        <div className='hidden sm:inline-flex border-solid border-4 border-cyan-500 rounded-br-3xl rounded-tl-3xl'>
+                            <img src={profile} alt="profile" height={240} width={240} className=' rounded-br-3xl rounded-tl-3xl'/>
+                        </div>
+                        
+                        
                         <p>Please have a look @ my <span className='text-cyan-600 dark:text-cyan-400'>tech stack</span> that would <span className='text-cyan-600 dark:text-cyan-400'>interest</span> you</p>
+                        
                     </div>
                     <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='px-6'>
                         <p className='dark:text-gray-200 text-2xl pb-1 sm:text-2xl font-bold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>

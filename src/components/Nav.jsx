@@ -39,7 +39,7 @@ const Nav = () => {
             </ul>
             
             {/* Hamburger and X Button*/}
-            <div onClick={handleClick} className='md:hidden  text-2xl z-10 text-gray-800 dark:text-gray-100 duration-300'>
+            <div onClick={handleClick} className='md:hidden text-2xl z-10 text-gray-800 dark:text-gray-100'>
                 {!nav ? <FaBars/> : <FaTimes />}
             </div>
             {/* Mobile Menu */}
