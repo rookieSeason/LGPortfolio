@@ -6,6 +6,7 @@ import { Link } from 'react-scroll';
 import logo1 from '../assets/logo1.png';
 import Lester from '../assets/lester.txt';
 import Switcher from './Switcher';
+import WordToggle from './WordToggle';
 
 
 const Nav = () => {
@@ -38,8 +39,8 @@ const Nav = () => {
             </ul>
             
             {/* Hamburger and X Button*/}
-            <div onClick={handleClick} className='md:hidden  text-2xl z-10 text-gray-800 dark:text-gray-100'>
-                {!nav ? <FaBars /> : <FaTimes />}
+            <div onClick={handleClick} className='md:hidden  text-2xl z-10 text-gray-800 dark:text-gray-100 duration-300'>
+                {!nav ? <FaBars/> : <FaTimes />}
             </div>
             {/* Mobile Menu */}
             
@@ -48,7 +49,7 @@ const Nav = () => {
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="about" smooth={true} duration={600}>About</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="projects" smooth={true} duration={600}>Projects</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="contact" smooth={true} duration={600}>Contact</Link></li>
-                <li><Switcher/></li>
+                <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><WordToggle/></li>
             </ul>
             {/* Social Icons   */}
             <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
