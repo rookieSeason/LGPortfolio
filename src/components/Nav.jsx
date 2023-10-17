@@ -28,6 +28,9 @@ const Nav = () => {
                 <li>
                     <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="about" smooth={true} duration={600}>About</Link>
                 </li>
+                <li>
+                    <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="experience" smooth={true} duration={600}>Experience</Link>
+                </li>
                 <li><Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="projects" smooth={true} duration={600}>Projects</Link></li>
                 <li>
                     <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="contact" smooth={true} duration={600}>Contact</Link>
@@ -47,6 +50,7 @@ const Nav = () => {
             <ul className={!nav ? 'hidden' : 'bg-gray-100 text-gray-800 absolute top-0 left-0 w-full h-screen dark:bg-[#0a192f] flex flex-col justify-center items-center dark:text-gray-100'}>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="home" smooth={true} duration={600}>Home</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="about" smooth={true} duration={600}>About</Link></li>
+                <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="experience" smooth={true} duration={600}>Experience</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="projects" smooth={true} duration={600}>Projects</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><Link onClick={handleClick} to="contact" smooth={true} duration={600}>Contact</Link></li>
                 <li className='py-3 text-2xl hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500'><WordToggle/></li>
