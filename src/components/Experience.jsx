@@ -11,9 +11,9 @@ const Experience = () => {
             </div>
            
             {/* <!-- component --> */}
-           
-<ol className="items-center sm:flex">
-    <div className='max-w-[1000px] px-8'>
+ <div className='max-w-[1200px]'>
+ <ol className="items-center sm:flex">
+    
     <li className="relative mb-6 px-8 sm:mb-0 py-8 mt-8 rounded-lg shadow-lg mx-4 bg-gray-50 dark:bg-gray-700">
         <div className="flex items-center">
             <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-gray-800 sm:ring-8 dark:ring-gray-600 shrink-0 dark:text-gray-100">
@@ -41,7 +41,7 @@ const Experience = () => {
             <p className="text-base font-normal text-gray-500 dark:text-gray-300">Graphic Designer Intern</p>
         </div>
     </li>
-</div>
+
 
 
     
@@ -72,6 +72,8 @@ const Experience = () => {
         </div>
     </li> */}
 </ol>
+</div>          
+
 
         </div>
     </div>
