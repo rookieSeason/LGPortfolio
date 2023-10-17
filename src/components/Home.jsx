@@ -11,8 +11,8 @@ const Home = () => {
                 <div className='whitespace-pre-line sm:max-w-[1100px] mx-auto px-12 py-8 flex flex-col justify-center items-center h-full w-full z-20'>
                     <div className=' max-w-[1100px] w-full grid sm:grid-cols-2 gap-4 col-span-1'>
                         <div className='p-0' data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
-                            <p className='text-gray-800 text-2xl dark:text-gray-100'>Hi my name is,</p>
-                            <p className='text-cyan-600 text-4xl dark:text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-300 sm:text-6xl font-bold my-2 dark:motion-safe:animate-pulse'>Lester John Gatpolintan</p>
+                            <p className='text-gray-800 text-md sm:text-2xl dark:text-gray-100 mt-2'>Hi my name is,</p>
+                            <p className='text-cyan-600 text-4xl dark:text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-300 sm:text-6xl font-bold py-1 dark:motion-safe:animate-pulse'>Lester John Gatpolintan</p>
                             <h3 className='animate-typing text-md text-gray-800 overflow-hidden whitespace-nowrap dark:text-gray-100 sm:text-2xl'>I'm a Junior Software Developer. </h3>
                             <p className='text-gray-800 max-w-[700px] dark:text-gray-300 py-3 text-sm sm:text-lg'>A hardworking Junior Software Developer
                             that willing to learn and can provide an innovative solution in a least amount of time</p>
