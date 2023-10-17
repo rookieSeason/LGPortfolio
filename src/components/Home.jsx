@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Home = () => {
         AOS.init();
     return (
-        <div name='home' className='bg-gray-100 w-screen h-screen dark:bg-[#0a192f] m-0 p-0 overflow-x-hidden duration-300'>          
+        <div name='home' className='bg-gray-100 w-screen h-screen dark:bg-[#0a192f] m-0 p-0 overflow-x-hidden antialiased transition-colors duration-300'>          
                 <div className='whitespace-pre-line sm:max-w-[1100px] mx-auto px-12 py-8 flex flex-col justify-center items-center h-full w-full z-20'>
                     <div className=' max-w-[1100px] w-full grid sm:grid-cols-2 gap-4 col-span-1'>
                         <div className='p-0' data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
@@ -27,16 +27,9 @@ const Home = () => {
                         <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4'>
                             <img src={Blockchain} alt="blockchain" className=' text-center' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"/>
                         </div>
-                    </div>
-                        
-                        
-                        
-                                                  
+                    </div>                                                
+                </div>               
             </div>
-             
-                
-               
-        </div>
 
     );
 }
