@@ -25,7 +25,7 @@ const Home = () => {
                             </Link> 
                         </div>
                         <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4'>
-                            <img src={Blockchain} alt="blockchain" className=' text-center' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"/>
+                            <img src={Blockchain} alt="blockchain" className=' animate-float text-center' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500"/>
                         </div>
                     </div>                                                
                 </div>               
