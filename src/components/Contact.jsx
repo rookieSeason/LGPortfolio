@@ -3,12 +3,12 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { ImLocation } from 'react-icons/im';
 const Contact= () => {
     return (
-        <div name='contact' className='overscroll-x-none w-screen h-screen bg-gray-100 text-gray-800 dark:bg-[#0a192f] duration-300 dark:text-gray-100'>
+        <div name='contact' className='overscroll-x-none w-screen h-screen bg-gray-100 dark:bg-[#0a192f] duration-300'>
             <div className='overscroll-x-none flex flex-col justify-center items-center w-full h-screen pt-12 px-12'>
                 <div className='whitespace-pre-line max-w-[900px] w-full grid sm:grid-cols-2 gap-2 pb-1 top-0'>
                     <div className='ml-4 sm:text-center pb-4' data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
                         <h1 className='my-8 text-2xl sm:text-3xl text-gray-800 dark:text-gray-100 font-bold inline border-b-4 border-cyan-500'>Contact Me</h1>
-                        <div className='pt-8 px-auto py-4'>
+                        <div className='pt-8 px-auto py-4 text-gray-600 dark:text-gray-400'>
                             <p className='mx-auto flex py-2 items-center text-left text-xl'>
                                 <BsFillTelephoneFill />
                                 <span className='pl-4'>
