@@ -16,8 +16,8 @@ const Experience = () => {
         <div className="flex md:contents flex-row-reverse">
             <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className="relative p-4 my-6 bg-gray-50 dark:bg-gray-700 rounded-xl shadow-md col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
                 <h3 className="text-lg text-cyan-600 dark:text-cyan-500 font-semibold lg:text-xl">In1go Technologies Inc.</h3>
-                <p className="mt-2 leading-6 text-gray-600 dark:text-gray-300">Junior Software Developer</p>
-                <span className="absolute text-sm text-gray-500/75 -top-5 left-2 whitespace-nowrap dark:text-gray-400">September 2023 - Present</span>
+                <p className="mt-2 leading-6 text-gray-600 dark:text-gray-400">Junior Software Developer</p>
+                <span className="absolute text-sm text-gray-500/75 -top-5 left-2 whitespace-nowrap dark:text-gray-300">September 2023 - Present</span>
             </div>
             <div className="relative col-start-5 col-end-6 mr-7 md:mx-auto">
                 <div className="flex items-center justify-center w-6 h-full">
@@ -37,8 +37,8 @@ const Experience = () => {
             </div>
             <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className="relative p-4 my-6 bg-gray-50 dark:bg-gray-700 rounded-xl shadow-md col-start-6 col-end-10 mr-auto">
                 <h3 className="text-lg text-cyan-600 dark:text-cyan-500 font-semibold lg:text-xl">Phosclay Chemical Mfg.</h3>
-                <p className="mt-2 leading-6 text-gray-600 dark:text-gray-300">Graphic Designer Intern</p>
-                <span className="absolute text-sm text-gray-400/75 -top-5 left-2 whitespace-nowrap dark:text-gray-400">March 2023 - June 2023</span>
+                <p className="mt-2 leading-6 text-gray-600 dark:text-gray-400">Graphic Designer Intern</p>
+                <span className="absolute text-sm text-gray-400/75 -top-5 left-2 whitespace-nowrap dark:text-gray-300">March 2023 - June 2023</span>
             </div>
         </div> 
 
