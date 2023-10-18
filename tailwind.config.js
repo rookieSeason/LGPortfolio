@@ -47,7 +47,7 @@ export default {
       },
       animation: {
         typing: "typing 1.5s steps(20) infinite alternate, blink .7s infinite",
-        float: "float 5s infinite"
+        float: "float 5s ease-in-out infinite"
       },
 
     },
