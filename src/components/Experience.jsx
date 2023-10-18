@@ -14,7 +14,7 @@ const Experience = () => {
  <div className='max-w-[1200px] px-4 py-8'>
  <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
         <div className="flex md:contents flex-row-reverse">
-            <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className="relative p-4 my-6 bg-gray-50 dark:bg-gray-700 rounded-xl col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
+            <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className="relative p-4 my-6 bg-gray-50 dark:bg-gray-700 rounded-xl shadow-md col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto">
                 <h3 className="text-lg text-cyan-600 dark:text-cyan-500 font-semibold lg:text-xl">In1go Technologies Inc.</h3>
                 <p className="mt-2 leading-6 text-gray-600 dark:text-gray-300">Junior Software Developer</p>
                 <span className="absolute text-sm text-gray-500/75 -top-5 left-2 whitespace-nowrap">September 2023 - Present</span>
@@ -35,7 +35,7 @@ const Experience = () => {
                 </div>
                 <div className="absolute w-6 h-6 -mt-3 bg-white border-4 border-indigo-400 rounded-full top-1/2"></div>
             </div>
-            <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className="relative p-4 my-6 bg-gray-50 dark:bg-gray-700 rounded-xl col-start-6 col-end-10 mr-auto">
+            <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className="relative p-4 my-6 bg-gray-50 dark:bg-gray-700 rounded-xl shadow-md col-start-6 col-end-10 mr-auto">
                 <h3 className="text-lg text-cyan-600 dark:text-cyan-500 font-semibold lg:text-xl">Phosclay Chemical Mfg.</h3>
                 <p className="mt-2 leading-6 text-gray-600 dark:text-gray-300">Graphic Designer Intern</p>
                 <span className="absolute text-sm text-gray-400/75 -top-5 left-2 whitespace-nowrap">March 2023 - June 2023</span>
