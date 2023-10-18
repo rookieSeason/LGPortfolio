@@ -33,7 +33,8 @@ export default {
           "25%":{
             transform: "translatey(0px)",
           },
-          "50%":{
+          "50%": {
+            transform: "translatey(20px)",
             animationTimingFunction: "infinite", 
           },  
           "75%":{
