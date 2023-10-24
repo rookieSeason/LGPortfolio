@@ -2,26 +2,26 @@ import React, { useEffect } from 'react'
 import profile from '../assets/profile.jpg'
 
 const About = () => {
-          
+
     return (
         <div name='about' className='overscroll-x-none w-screen h-screen bg-gray-100 text-gray-800 dark:bg-[#0a192f] duration-300'>
             <div className='sm:flex flex-col justify-center items-center w-screen h-full py-8 whitespace-pre-line' >
-                <div  className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
+                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='ml-4 px-4 py-4 sm:text-right pb-4'>
                         <span>
                             <h1 className='mt-2 text-2xl dark:text-gray-50 sm:text-4xl font-bold inline border-b-4 border-cyan-500'>About</h1>
                         </span>
                     </div>
                 </div>
-                <div  className='max-w-[1000px] text-2xl w-full grid sm:grid-cols-2 gap-4 px-4'>
+                <div className='max-w-[1000px] text-2xl w-full grid sm:grid-cols-2 gap-4 px-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='dark:text-gray-200 text-md sm:text-right text-4xl font-semibold pt-4 px-4'>
                         <div className='hidden sm:inline-flex border-solid border-4 border-cyan-500 rounded-br-3xl rounded-tl-3xl'>
-                            <img src={profile} alt="profile" height={240} width={240} className=' rounded-br-3xl rounded-tl-3xl'/>
+                            <img src={profile} alt="profile" height={240} width={240} className=' rounded-br-2xl rounded-tl-2xl' />
                         </div>
-                        
-                        
+
+
                         <p>Please have a look @ my <span className='text-cyan-600 dark:text-cyan-400'>tech stack</span> that would <span className='text-cyan-600 dark:text-cyan-400'>interest</span> you</p>
-                        
+
                     </div>
                     <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='px-6'>
                         <p className='dark:text-gray-200 text-2xl pb-1 sm:text-2xl font-bold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>
@@ -64,7 +64,7 @@ const About = () => {
                             </div>
                         </span>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     );
