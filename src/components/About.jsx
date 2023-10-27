@@ -20,7 +20,7 @@ const About = () => {
                         </div>
 
 
-                        <p>Please have a look @ my <span className='text-cyan-600 dark:text-cyan-400'>tech stack</span> that would <span className='text-cyan-600 dark:text-cyan-400'>interest</span> you</p>
+                        <p>Please have a look @ my <span className='text-cyan-600 dark:text-cyan-500'>tech stack</span> that would <span className='text-cyan-600 dark:text-cyan-500'>interest</span> you</p>
 
                     </div>
                     <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='px-6'>
@@ -29,7 +29,7 @@ const About = () => {
                             <div className='my-1 hover:scale-105 duration-200'>
                                 <label htmlFor="JavaScript" className='text-sm'>JavaScript</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-yellow-400' style={{ width: 80 }}></div>
+                                    <div className='rounded-l h-2 bg-yellow-400' style={{ width: 100 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
@@ -39,27 +39,27 @@ const About = () => {
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="JavaScript" className='text-sm'>Laravel</label>
+                                <label htmlFor="Laravel" className='text-sm'>Laravel</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
                                     <div className='rounded-l h-2 bg-[#f55247]' style={{ width: 100 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="JavaScript" className='text-sm'>React JS</label>
+                                <label htmlFor="React" className='text-sm'>React JS</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#61DBFB]' style={{ width: 95 }}></div>
+                                    <div className='rounded-l h-2 bg-[#61DBFB]' style={{ width: 130 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="JavaScript" className='text-sm'>Node JS</label>
+                                <label htmlFor="Node" className='text-sm'>Node JS</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#215732]' style={{ width: 75 }}></div>
+                                    <div className='rounded-l h-2 bg-[#215732]' style={{ width: 100 }}></div>
                                 </div>
                             </div>
                             <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="JavaScript" className='text-sm'>My SQL</label>
+                                <label htmlFor="SQL" className='text-sm'>SQL</label>
                                 <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#00758F]' style={{ width: 80 }}></div>
+                                    <div className='rounded-l h-2 bg-[#00758F]' style={{ width: 120 }}></div>
                                 </div>
                             </div>
                         </span>
