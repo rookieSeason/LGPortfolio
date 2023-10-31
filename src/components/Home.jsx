@@ -24,8 +24,8 @@ const Home = () => {
                             </button>
                         </Link>
                     </div>
-                    <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4'>
-                        <img src={Blockchain} alt="blockchain" className=' animate-float text-center' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" />
+                    <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4 -rotate-12'>
+                        <img src={Blockchain} alt="blockchain" className='animate-float text-center -rotate-2' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" />
                     </div>
                 </div>
             </div>

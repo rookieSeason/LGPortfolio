@@ -23,8 +23,7 @@ const Switcher = () => {
 
     return (
         <div>
-            <button className='border-gray-800 rounded-full dark:text-gray-100
-        dark:border-gray-100' onClick={darkModeSwitch}>
+            <button className='border-gray-800 rounded-full dark:text-gray-100' onClick={darkModeSwitch}>
                 <span>{theme === "light" ? <BsFillSunFill /> : <BsFillMoonFill />}</span>
             </button>
         </div>
