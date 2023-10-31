@@ -6,17 +6,22 @@ const Switcher =() => {
 
     const[theme, setTheme] = useState(false);
 
-    useEffect(()=>{
+    useEffect(() => {
+        
+        const darkMode = localStorage.getItem("dark");
+
         if(theme === "light"){
             document.documentElement.classList.add("dark");
+            setTheme(JSON.parse(darkMode));
         }
         else{
             document.documentElement.classList.remove("dark");
         }
-    });
+    },[]);
 
     const darkModeSwitch = () =>{
         setTheme(theme === "light" ? "dark" : "light");
+        localStorage.setItem(theme, "dark");
     }
         
     // setTheme(prevMode => !prevMode)

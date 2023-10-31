@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Experience from './components/Experience'
 
+
 function App() {
 
   return (
@@ -13,7 +14,7 @@ function App() {
     <div className='overscroll-x-none overflow-x-hidden'>
       <Nav/>
       <Home />
-      <About />
+      <About />  
       <Experience/>
       <Projects />
       <Contact />
