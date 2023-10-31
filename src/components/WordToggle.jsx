@@ -16,13 +16,13 @@ const WordToggle = () => {
     const darkModeSwitch = () =>{
         setTheme(theme === "light" ? "dark" : "light");
     }
-  return (
-    <div>
-        <button onClick={darkModeSwitch}>
-            {theme === "light" ? <span>Light Mode</span> : <span>Dark Mode</span>}
-        </button>
-    </div>
-  )
+    return (
+        <div>
+            <button onClick={darkModeSwitch}>
+                {theme === "light" ? <span>Light Mode</span> : <span>Dark Mode</span>}
+            </button>
+        </div>
+    );
 }
 
 export default WordToggle
