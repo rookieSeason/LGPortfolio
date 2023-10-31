@@ -35,7 +35,7 @@ const Nav = () => {
                     <li>
                         <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="contact" smooth={true} duration={600}>Contact</Link>
                     </li>
-                    <li className='text-xl'>
+                    <li className='text-xl hover:text-cyan-500 duration-200'>
                         <Switcher />
                     </li>
                
