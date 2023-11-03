@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaLinkedin, FaGithub, FaFacebook} from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill,BsInstagram } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { Link } from 'react-scroll';
 import logo1 from '../assets/logo1.png';
@@ -58,27 +58,27 @@ const Nav = () => {
                 {/* Social Icons   */}
                 <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
                     <ul>
-                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-white text-blue-500 rounded-t-lg shadow-lg'>
+                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-white text-blue-500 rounded-tr-full rounded-br-full shadow-lg'>
                             <a href="/" className='flex justify-between items-center w-full'>
                                 Facebook <FaFacebook size={25} />
                             </a>
                         </li>
-                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-gray-800 text-gray-50 shadow-lg'>
+                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-gray-800 text-gray-50 rounded-tr-full rounded-br-full shadow-lg'>
                             <a href="https://github.com/rookieSeason" className='flex justify-between items-center w-full'>
                                 Github  <FaGithub size={25} />
                             </a>
                         </li>
-                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#0077b5] text-gray-50 shadow-lg'>
+                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-[#0077b5] text-gray-50 rounded-tr-full rounded-br-full shadow-lg'>
                             <a href="" className='flex justify-between items-center w-full'>
                                 Linkedin<FaLinkedin size={25} />
                             </a>
                         </li>
-                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-red-700 text-gray-50 shadow-lg'>
-                            <a href="https://gmail.com/gatpolintanjohn" className='flex justify-between items-center w-full'>
-                                Gmail<SiGmail size={25} />
+                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-blue-700 via-rose-500 to-orange-400 text-gray-50 rounded-tr-full rounded-br-full shadow-lg'>
+                            <a href="" className='flex justify-between items-center w-full'>
+                                Instagram<BsInstagram size={25} />
                             </a>
                         </li>
-                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-green-500 text-gray-50 rounded-b-lg shadow-lg'>
+                        <li className='w-[145px] h-[60px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-green-500 text-gray-50 rounded-tr-full rounded-br-full shadow-lg'>
                             <a href={Lester} download="resume-pdf" target='_blank' rel='nonreferrer' className='flex justify-between items-center w-full'>
                                 Resume<BsFillPersonLinesFill size={25} />
                             </a>
