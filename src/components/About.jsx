@@ -32,32 +32,32 @@ const About = () => {
                         <p className='dark:text-gray-200 text-2xl pb-1 sm:text-2xl font-semibold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>
                         <span className='sm:flex flex-col justify-center py-2 dark:text-gray-300'>
                             <div className='animate-float max-w-[600px] w-full grid grid-cols-3 py-2 text-gray-500 dark:text-gray-400'>
-                                <div data-tooltip-target="tooltip-light" data-tooltip-style="light" className=' pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className=' pt-4 hover:scale-105 duration-300 hover:text-[#F0DB4F]'>
                                     <RiJavascriptFill size={80} />
                                 </div>
-                                <div className=' pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className=' pt-4 hover:scale-105 duration-300 hover:text-[#61DBFB]'>
                                     <IoLogoReact size={80} />
                                 </div>
                                 
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-red-600'>
                                     <SiMicrosoftsqlserver size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-[#68a063]'>
                                     <IoLogoNodejs size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-[#f05340]'>
                                     <LiaLaravel size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-[#00758f]'>
                                     <SiMysql size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-gray-800'>
                                     <FaAws size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-[#AEB2D5]'>
                                     <SiPhp size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-[#3490dc]'>
                                     <SiTailwindcss size={80} />
                                 </div>
                             </div>
