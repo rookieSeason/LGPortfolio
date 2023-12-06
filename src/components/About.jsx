@@ -51,7 +51,7 @@ const About = () => {
                                 <div className='pt-4 hover:scale-105 duration-300 hover:text-[#00758f]'>
                                     <SiMysql size={80} />
                                 </div>
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-gray-800'>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-[#FF9900]'>
                                     <FaAws size={80} />
                                 </div>
                                 <div className='pt-4 hover:scale-105 duration-300 hover:text-[#AEB2D5]'>
