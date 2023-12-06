@@ -2,7 +2,7 @@ import React from 'react'
 import profile from '../assets/profile.jpg'
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoReact } from "react-icons/io5";
-import { SiMicrosoftsqlserver, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
+import { SiMicrosoftsqlserver, SiMysql, SiPhp, SiTailwindcss, SiExpress } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import { LiaLaravel } from "react-icons/lia";
 import { FaAws } from "react-icons/fa6";
@@ -39,8 +39,8 @@ const About = () => {
                                     <IoLogoReact size={80} />
                                 </div>
                                 
-                                <div className='pt-4 hover:scale-105 duration-300 hover:text-red-600'>
-                                    <SiMicrosoftsqlserver size={80} />
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-gray-700'>
+                                    <SiExpress size={80} />
                                 </div>
                                 <div className='pt-4 hover:scale-105 duration-300 hover:text-[#68a063]'>
                                     <IoLogoNodejs size={80} />
