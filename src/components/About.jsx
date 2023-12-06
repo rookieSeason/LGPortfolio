@@ -1,20 +1,25 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import profile from '../assets/profile.jpg'
-
+import { RiJavascriptFill } from "react-icons/ri";
+import { IoLogoReact } from "react-icons/io5";
+import { SiMicrosoftsqlserver, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
+import { LiaLaravel } from "react-icons/lia";
+import { FaAws } from "react-icons/fa6";
 const About = () => {
 
     return (
-        <div name='about' className='overscroll-x-none w-screen h-screen bg-gray-100 text-gray-800 dark:bg-[#0a192f] duration-300'>
+        <div name='about' className='overscroll-x-none w-screen h-screen bg-gray-100 dark:bg-[#0a192f] duration-300'>
             <div className='sm:flex flex-col justify-center items-center w-screen h-full py-8 whitespace-pre-line' >
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-4'>
                     <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='ml-4 px-4 py-4 sm:text-right pb-4'>
-                        <span>
-                            <h1 className='mt-2 text-2xl dark:text-gray-50 sm:text-4xl font-bold inline border-b-4 border-cyan-500'>About</h1>
+                        <span className='text-gray-700'>
+                            <h2 className='mt-2 text-2xl dark:text-gray-100 sm:text-4xl font-semibold inline border-b-4 border-cyan-500'>About</h2>
                         </span>
                     </div>
                 </div>
                 <div className='max-w-[1000px] text-2xl w-full grid sm:grid-cols-2 gap-4 px-4'>
-                    <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='dark:text-gray-200 text-md sm:text-right text-4xl font-semibold pt-4 px-4'>
+                    <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="500" className='dark:text-gray-300 text-md sm:text-right text-4xl font-semibold pt-4 px-4'>
                         <div className='hidden sm:inline-flex border-solid border-4 border-cyan-500 rounded-br-3xl rounded-tl-3xl'>
                             <img src={profile} alt="profile" height={240} width={240} className=' rounded-br-2xl rounded-tl-2xl' />
                         </div>
@@ -23,43 +28,37 @@ const About = () => {
                         <p>Please have a look @ my <span className='text-cyan-600 dark:text-cyan-500'>tech stack</span> that would <span className='text-cyan-600 dark:text-cyan-500'>interest</span> you</p>
 
                     </div>
-                    <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='px-6'>
-                        <p className='dark:text-gray-200 text-2xl pb-1 sm:text-2xl font-bold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>
-                        <span className='sm:flex flex-col justify-center py-2 dark:text-gray-200'>
-                            <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="JavaScript" className='text-sm'>JavaScript</label>
-                                <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-yellow-400' style={{ width: 100 }}></div>
+                    <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='px-3'>
+                        <p className='dark:text-gray-200 text-2xl pb-1 sm:text-2xl font-semibold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>
+                        <span className='sm:flex flex-col justify-center py-2 dark:text-gray-300'>
+                            <div className='animate-float max-w-[600px] w-full grid grid-cols-3 py-2 text-gray-500 dark:text-gray-400'>
+                                <div data-tooltip-target="tooltip-light" data-tooltip-style="light" className=' pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <RiJavascriptFill size={80} />
                                 </div>
-                            </div>
-                            <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="PHP" className='text-sm'>PHP</label>
-                                <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#8993be]' style={{ width: 140 }}></div>
+                                <div className=' pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <IoLogoReact size={80} />
                                 </div>
-                            </div>
-                            <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="Laravel" className='text-sm'>Laravel</label>
-                                <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#f55247]' style={{ width: 100 }}></div>
+                                
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <SiMicrosoftsqlserver size={80} />
                                 </div>
-                            </div>
-                            <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="React" className='text-sm'>React JS</label>
-                                <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#61DBFB]' style={{ width: 130 }}></div>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <IoLogoNodejs size={80} />
                                 </div>
-                            </div>
-                            <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="Node" className='text-sm'>Node JS</label>
-                                <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#215732]' style={{ width: 100 }}></div>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <LiaLaravel size={80} />
                                 </div>
-                            </div>
-                            <div className='my-1 hover:scale-105 duration-200'>
-                                <label htmlFor="SQL" className='text-sm'>SQL</label>
-                                <div className='mb-3 h-2 w-full bg-neutral-300 dark:bg-neutral-400 rounded'>
-                                    <div className='rounded-l h-2 bg-[#00758F]' style={{ width: 120 }}></div>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <SiMysql size={80} />
+                                </div>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <FaAws size={80} />
+                                </div>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <SiPhp size={80} />
+                                </div>
+                                <div className='pt-4 hover:scale-105 duration-300 hover:text-cyan-700 dark:hover:text-cyan-500'>
+                                    <SiTailwindcss size={80} />
                                 </div>
                             </div>
                         </span>

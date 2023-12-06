@@ -2,11 +2,11 @@ import React from 'react'
 
 const Experience = () => {
     return (
-        <div name='experience' className='overscroll-x-none w-screen h-screen bg-gray-100 text-gray-800 dark:bg-[#0a192f] duration-300'>
+        <div name='experience' className='overscroll-x-none w-screen h-screen bg-gray-100 dark:bg-[#0a192f] duration-300'>
             <div className='sm:flex flex-col justify-center items-center w-screen h-screen whitespace-pre-line'>
-                <div className='pt-8 px-8 sm:text-center'>
+                <div className='pt-8 px-8 sm:text-center text-gray-700'>
                     <span data-aos='fade-up' data-aos-delay='200' data-aos-duration='500'>
-                        <h1 className='mt-2 text-2xl dark:text-gray-50 sm:text-4xl font-bold inline border-b-4 border-cyan-500'>Experience</h1>
+                        <h1 className='mt-2 text-2xl dark:text-gray-100 sm:text-4xl font-bold inline border-b-4 border-cyan-500'>Experience</h1>
                     </span>
                 </div>
            
