@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { FaLinkedin, FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import Blockchain from '../assets/blockchain.png'
+import Atropos from 'atropos/react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Home = () => {
@@ -23,9 +25,27 @@ const Home = () => {
                                 </span>
                             </button>
                         </Link>
+                        
+                        <ul className='flex items-center text-gray-500 dark:text-gray-300 pt-2'>
+                            <a href="https://www.facebook.com/Liquid.L">
+                                <li className='hover:text-cyan-500 duration-300'><FaFacebook size={20} /></li>
+                            </a>
+                            <a href="/">
+                                <li className='hover:text-cyan-500 duration-300'><FaInstagram size={20} /></li>
+                            </a>
+                            <a href="https://github.com/rookieSeason">
+                                <li className='hover:text-cyan-500 duration-300'><FaGithub size={20} /></li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/lester-john-gatpolintan-119112272/"></a>
+                            <li className='hover:text-cyan-500 duration-300'><FaLinkedin size={20} /></li>
+                        </ul>
+                        
                     </div>
                     <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4 -rotate-12'>
-                        <img src={Blockchain} alt="blockchain" className='animate-float text-center -rotate-2' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" />
+                        <Atropos shadow={false} shadowScale={0}>
+                            <img src={Blockchain} alt="blockchain" className='animate-float text-center -rotate-2 hover:scale-125' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" />
+                        </Atropos>
+                        
                     </div>
                 </div>
             </div>
