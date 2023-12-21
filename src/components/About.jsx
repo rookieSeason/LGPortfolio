@@ -35,53 +35,53 @@ const About = () => {
                         <span className='sm:flex flex-col items-center py-2 dark:text-gray-300 text-center'>
                             <div className='animate-float max-w-[600px] justify-center items-center w-full grid grid-cols-3 text-gray-500 dark:text-gray-400'>
                                 
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#F0DB4F]'>
+                                <div title='JavaScript' className='py-2 hover:scale-110 duration-300 hover:text-[#F0DB4F]'>
                                     <RiJavascriptFill size={70} />
                                 </div>
                                 
                                 
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#61DBFB]'>
+                                <div title='React JS' className='py-2 hover:scale-110 duration-300 hover:text-[#61DBFB]'>
                                     <IoLogoReact size={70} />
                                     
                                 </div>
                                 
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-gray-700'>
+                                <div title='Express JS' className='py-2 hover:scale-110 duration-300 hover:text-gray-700'>
                                     <SiExpress size={70} />
                                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#68a063]'>
+                                <div title='Node JS' className='py-2 hover:scale-110 duration-300 hover:text-[#68a063]'>
                                     <IoLogoNodejs size={70} />
                                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#f05340]'>
+                                <div title='Laravel' className='py-2 hover:scale-110 duration-300 hover:text-[#f05340]'>
                                     <LiaLaravel size={70} />
                                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#00758f]'>
+                                <div title='My SQL' className='py-2 hover:scale-110 duration-300 hover:text-[#00758f]'>
                                     <SiMysql size={70} />
                                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#FF9900]'>
+                                <div title='Amazon Web Service' className='py-2 hover:scale-110 duration-300 hover:text-[#FF9900]'>
                                     <FaAws size={70} />
                                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#AEB2D5]'>
+                                <div title='PHP' className='py-2 hover:scale-110 duration-300 hover:text-[#AEB2D5]'>
                                     <SiPhp size={70} />
                                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#3490dc]'>
+                                <div title='Tailwind CSS' className='py-2 hover:scale-110 duration-300 hover:text-[#3490dc]'>
                                     <SiTailwindcss size={70} />
                     
                                 </div>
-                                 <div className='py-2 hover:scale-110 duration-300 hover:text-[#f34f29]'>
+                                 <div title='Git' className='py-2 hover:scale-110 duration-300 hover:text-[#f34f29]'>
                                     <FaGitAlt size={70} />
                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#563d7c]'>
+                                <div title='Bootstrap' className='py-2 hover:scale-110 duration-300 hover:text-[#563d7c]'>
                                     <FaBootstrap size={70} />
                     
                                 </div>
-                                <div className='py-2 hover:scale-110 duration-300 hover:text-[#01B3F2]'>
+                                <div title='Sequelize ORM' className='py-2 hover:scale-110 duration-300 hover:text-[#01B3F2]'>
                                     <SiSequelize size={70} />
                     
                                 </div>
