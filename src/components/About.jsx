@@ -33,56 +33,56 @@ const About = () => {
                     <div data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">
                         <p className='dark:text-gray-200 text-2xl pb-1 sm:text-2xl font-semibold inline border-b-4 border-gray-400 whitespace-pre-line'>Tech Stack</p>
                         <span className='sm:flex flex-col items-center py-2 dark:text-gray-300 text-center'>
-                            <div className='animate-float max-w-[600px] justify-center items-center w-full grid grid-cols-3 text-gray-500 dark:text-gray-400'>
+                            <div className='pl-3 animate-float max-w-[600px] justify-center items-center w-full grid grid-cols-3 text-gray-500 dark:text-gray-400'>
                                 
-                                <div title='JavaScript' className='py-2 hover:scale-110 duration-300 hover:text-[#F0DB4F]'>
-                                    <RiJavascriptFill size={70} />
-                                </div>
-                                
-                                
-                                <div title='React JS' className='py-2 hover:scale-110 duration-300 hover:text-[#61DBFB]'>
-                                    <IoLogoReact size={70} />
-                                    
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#F0DB4F]'>
+                                    <RiJavascriptFill size={70} title='JavaScript' />
                                 </div>
                                 
-                                <div title='Express JS' className='py-2 hover:scale-110 duration-300 hover:text-gray-700'>
-                                    <SiExpress size={70} />
+                                
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#61DBFB]'>
+                                    <IoLogoReact size={70} title='React JS' />
                                     
                                 </div>
-                                <div title='Node JS' className='py-2 hover:scale-110 duration-300 hover:text-[#68a063]'>
-                                    <IoLogoNodejs size={70} />
+                                
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-gray-700'>
+                                    <SiExpress size={70} title='Express JS' />
                                     
                                 </div>
-                                <div title='Laravel' className='py-2 hover:scale-110 duration-300 hover:text-[#f05340]'>
-                                    <LiaLaravel size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#68a063]'>
+                                    <IoLogoNodejs size={70} title='Node JS' />
                                     
                                 </div>
-                                <div title='My SQL' className='py-2 hover:scale-110 duration-300 hover:text-[#00758f]'>
-                                    <SiMysql size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#f05340]'>
+                                    <LiaLaravel size={70} title='Laravel' />
                                     
                                 </div>
-                                <div title='Amazon Web Service' className='py-2 hover:scale-110 duration-300 hover:text-[#FF9900]'>
-                                    <FaAws size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#00758f]'>
+                                    <SiMysql size={70} title='My SQL' />
                                     
                                 </div>
-                                <div title='PHP' className='py-2 hover:scale-110 duration-300 hover:text-[#AEB2D5]'>
-                                    <SiPhp size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#FF9900]'>
+                                    <FaAws size={70} title='Amazon Web Service' />
                                     
                                 </div>
-                                <div title='Tailwind CSS' className='py-2 hover:scale-110 duration-300 hover:text-[#3490dc]'>
-                                    <SiTailwindcss size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#AEB2D5]'>
+                                    <SiPhp size={70} title='PHP' />
+                                    
+                                </div>
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#0ea5e9]'>
+                                    <SiTailwindcss size={70} title='Tailwind CSS' />
                     
                                 </div>
-                                 <div title='Git' className='py-2 hover:scale-110 duration-300 hover:text-[#f34f29]'>
-                                    <FaGitAlt size={70} />
+                                 <div  className='py-2 hover:scale-110 duration-300 hover:text-[#f34f29]'>
+                                    <FaGitAlt size={70} title='Git' />
                     
                                 </div>
-                                <div title='Bootstrap' className='py-2 hover:scale-110 duration-300 hover:text-[#563d7c]'>
-                                    <FaBootstrap size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#563d7c]'>
+                                    <FaBootstrap size={70} title='Bootstrap' />
                     
                                 </div>
-                                <div title='Sequelize ORM' className='py-2 hover:scale-110 duration-300 hover:text-[#01B3F2]'>
-                                    <SiSequelize size={70} />
+                                <div  className='py-2 hover:scale-110 duration-300 hover:text-[#01B3F2]'>
+                                    <SiSequelize size={70} title='Sequelize ORM' />
                     
                                 </div>
                             </div>
