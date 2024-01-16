@@ -1,20 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Inter&family=Poppins&family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
-
-@layer base{
-
-  *{
+@layer base {
+  * {
     @apply overscroll-x-none;
   }
-  body{
-    @apply font-[Poppins];
-  }
-  li{
+  li {
     @apply px-4;
     @apply cursor-pointer;
   }
+    
 }
 @tailwind base;
 @tailwind components;
