@@ -23,17 +23,17 @@ const Nav = () => {
                 <ul className='hidden md:flex text-gray-500 text-normal dark:text-gray-200 duration-300'>
                     {/*Menu*/}
                     <li>
-                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="home" smooth={true} duration={600}>Home</Link>
+                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="home" smooth={true} duration={700}>Home</Link>
                     </li>
                     <li>
-                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="about" smooth={true} duration={600}>About</Link>
+                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="about" smooth={true} duration={700}>About</Link>
                     </li>
                     <li>
-                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="experience" smooth={true} duration={600}>Experience</Link>
+                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="experience" smooth={true} duration={700}>Experience</Link>
                     </li>
-                    <li><Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="projects" smooth={true} duration={600}>Projects</Link></li>
+                    <li><Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="projects" smooth={true} duration={700}>Projects</Link></li>
                     <li>
-                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="contact" smooth={true} duration={600}>Contact</Link>
+                        <Link className='hover:text-cyan-500 duration-200 hover:border-b-2 border-cyan-500' to="contact" smooth={true} duration={700}>Contact</Link>
                     </li>
                     <li className='text-xl hover:text-cyan-500 duration-200'>
                         <Switcher />
