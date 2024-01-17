@@ -31,21 +31,20 @@ export default {
         },
         float: {
           "0%": {
-            transform: "translatey(0px)",
-
+            transform: "translatey(5px)",
           },
           "25%":{
             transform: "translatey(0px)",
           },
           "50%": {
-            transform: "translatey(20px)",
+            transform: "translatey(0px)",
             animationTimingFunction: "infinite", 
           },  
           "75%":{
-            transform: "translatey(20px)",
+            transform: "translatey(0px)",
           },
           "100%":{
-            transform: "translatey(0px)",
+            transform: "translatey(5px)",
           },
         }
       },

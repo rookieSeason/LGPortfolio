@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { FaLinkedin, FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
-import Blockchain from '../assets/blockchain.png'
+// import Blockchain from '../assets/blockchain.png'
+import avatar from '../assets/peeps-avatar-alpha.png';
 import Atropos from 'atropos/react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,8 +11,8 @@ const Home = () => {
         AOS.init();
     return (
         <div name='home' className='bg-gray-100 w-screen h-screen dark:bg-[#0a192f] m-0 p-0 overflow-x-hidden antialiased transition-colors duration-300'>
-            <div className='whitespace-pre-line sm:max-w-[1100px] mx-auto px-12 py-8 flex flex-col justify-center items-center h-full w-full z-20'>
-                <div className=' max-w-[1100px] w-full grid sm:grid-cols-2 gap-4 col-span-1'>
+            <div className='whitespace-pre-line sm:max-w-[1100px] max-h-screen mx-auto px-12 py-8 flex flex-col justify-center items-center h-full w-full z-20'>
+                <div className=' max-w-[1100px] w-full grid sm:grid-cols-2 gap-x-8 col-span-1'>
                     <div className='p-0' data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
                         <p className='text-gray-800 text-md sm:text-2xl dark:text-gray-100 mt-2'>Hi my name is,</p>
                         <h1 className='text-cyan-600 text-4xl dark:text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-300 sm:text-7xl font-semibold py-1 dark:motion-safe:animate-pulse'>Lester John Gatpolintan</h1>
@@ -41,9 +42,9 @@ const Home = () => {
                         </ul>
                         
                     </div>
-                    <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4 -rotate-12'>
-                        <Atropos shadow={false} shadowScale={0}>
-                            <img src={Blockchain} alt="blockchain" className='animate-float text-center -rotate-2 hover:scale-125' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" />
+                    <div className='max-w-[700px]sm:flex flex-wrap justify-center items-center max-w-lg bg-right relative z-[-200px] pt-4'>
+                        <Atropos className='p-4' shadow={false} shadowScale={0}>
+                            <img src={avatar} width={450} height={450} alt="avatar" className='border border-cyan-500 rounded-full animate-float text-center hover:scale-125' data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" />
                         </Atropos>
                         
                     </div>
